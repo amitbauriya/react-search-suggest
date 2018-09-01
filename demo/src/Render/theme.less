@@ -1,0 +1,92 @@
+@border-color: #aaa;
+@border-radius: 4px;
+
+.container {
+  position: relative;
+}
+
+.input {
+  width: 240px;
+  height: 30px;
+  padding: 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid @border-color;
+  border-radius: @border-radius;
+  -webkit-appearance: none;
+
+  &::-ms-clear {
+    display: none;
+  }
+}
+
+.inputOpen {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.inputFocused {
+  outline: none;
+}
+
+.suggestionsContainer {
+  display: none;
+}
+
+.suggestionsContainerOpen {
+  display: block;
+  position: absolute;
+  top: 51px;
+  align-items: center;
+  text-align: center;
+  width: 280px;
+  border: 1px solid @border-color;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  border-bottom-left-radius: @border-radius;
+  border-bottom-right-radius: @border-radius;
+  z-index: 2;
+}
+
+.suggestionsList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color:#000;
+}
+
+.suggestion {
+  cursor: pointer;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 16px;
+  height: auto;
+  border-top: 1px solid #ddd;
+}
+
+.suggestionFirst {
+  border-top: 0;
+}
+
+.suggestionHighlighted {
+  background-color: #da4b40;
+  color: #fff;
+}
+
+.name {
+  margin-left: 2px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.highlight {
+  color: #ee0000;
+  font-weight: 400;
+
+  .suggestionHighlighted & {
+    color: #120000;
+  }
+}

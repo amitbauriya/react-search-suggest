@@ -1,0 +1,48 @@
+@import '~variables';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 34 * @columns;
+  margin: (16 * @rows) (0.5 * @column) 0;
+
+  @media @examples-vertical {
+    flex-direction: column;
+    width: 14 * @columns;
+  }
+
+  @media @small {
+    margin-top: 12 * @rows;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 15 * @columns;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 5 * @rows;
+
+  @media @small {
+    font-size: 25px;
+  }
+}
+
+.subHeader {
+  margin: 0 (0.5 * @column);
+  text-align: center;
+  font-size: 20px;
+}
+
+.autosuggest {
+  margin-top: 2 * @rows;
+
+  @media @examples-vertical {
+    margin-top: 3 * @rows;
+    margin-left: 0;
+  }
+}
