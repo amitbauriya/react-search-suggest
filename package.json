@@ -1,8 +1,12 @@
 {
   "name": "react-search-suggest",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "React Search Suggest Example",
   "main": "demo/src/index.js",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/amitbauriya/react-search-suggest.git"
+  },
   "author": "Amit Bauriya <amit001bauriya@gmail.com>",
   "scripts": {
     "start": "mkdirp demo/public && npm run static-files && node server",
@@ -69,6 +73,16 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react search suggest",
+    "react auto suggest",
+    "react search live",
+    "react search instant",
+    "react auto type",
+    "react search autotype",
+    "react search example auto type",
+    "react-autocomplete"
   ],
   "lint-staged": {
     ".*.js": [
