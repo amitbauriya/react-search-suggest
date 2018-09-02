@@ -18,7 +18,7 @@ export default class Autosuggest extends Component {
 
       if (typeof onSuggestionsFetchRequested !== 'function') {
         throw new Error(
-          "'onSuggestionsFetchRequested' must be implemented. See: https://github.com/moroshko/react-autosuggest#onSuggestionsFetchRequestedProp"
+          "'onSuggestionsFetchRequested'"
         );
       }
     },
@@ -30,7 +30,7 @@ export default class Autosuggest extends Component {
         typeof onSuggestionsClearRequested !== 'function'
       ) {
         throw new Error(
-          "'onSuggestionsClearRequested' must be implemented. See: https://github.com/moroshko/react-autosuggest#onSuggestionsClearRequestedProp"
+          "'onSuggestionsClearRequested' must be implemented."
         );
       }
     },
@@ -62,7 +62,7 @@ export default class Autosuggest extends Component {
         typeof renderSectionTitle !== 'function'
       ) {
         throw new Error(
-          "'renderSectionTitle' must be implemented. See: https://github.com/moroshko/react-autosuggest#renderSectionTitleProp"
+          "'renderSectionTitle' must be implemented."
         );
       }
     },
@@ -74,7 +74,7 @@ export default class Autosuggest extends Component {
         typeof getSectionSuggestions !== 'function'
       ) {
         throw new Error(
-          "'getSectionSuggestions' must be implemented. See: https://github.com/moroshko/react-autosuggest#getSectionSuggestionsProp"
+          "'getSectionSuggestions' must be implemented."
         );
       }
     },
