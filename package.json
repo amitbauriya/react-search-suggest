@@ -1,7 +1,7 @@
 {
   "name": "react-search-suggest",
   "version": "1.6.0",
-  "description": "React Search Suggest Example",
+  "description": "React Search Suggest on a front-end as you type, to provide end-users with a lightning fast search experience.",
   "main": "demo/src/index.js",
     "repository": {
     "type": "git",
