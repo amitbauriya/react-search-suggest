@@ -1,7 +1,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/amitbauriya/react-search-suggest/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/amitbauriya/react-search-suggest/?branch=master)
-[![Code Climate](https://codeclimate.com/github/amitbauriya/react-search-suggest/badges/gpa.svg)](https://codeclimate.com/github/amitbauriya/react-search-suggest)
-[![npm Downloads](https://img.shields.io/npm/dm/react-autowhatever.svg?style=flat-square)](https://npmjs.org/package/react-search-suggest)
-[![npm Version](https://img.shields.io/npm/v/react-autowhatever.svg?style=flat-square)](https://npmjs.org/package/react-search-suggest)
+[![Code Climate](https://codeclimate.com/github/amitbauriya/react-search-suggest/badges/gpa.svg)](https://codeclimate.com/github/amitbauriya/react-search-suggest)[![HitCount](http://hits.dwyl.io/amitbauriya/react-search-suggest.svg)](http://hits.dwyl.io/amitbauriya/react-search-suggest)
+
 
 # React Search Suggest
 
@@ -9,10 +8,10 @@ React Search Suggest on a front-end as you type, to provide end-users with a lig
 
 ## Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/amitbauriya/react-search-suggest/master/react-search-suggest.gif)
+![Screenshot](https://raw.githubusercontent.com/amitbauriya/react-search-suggest/master/react-search-suggest-gif.gif)
 
 
-###Features
+### Features
 
 * Auto suggestion from database
 * Plugs in nicely to Flux and Redux applications
