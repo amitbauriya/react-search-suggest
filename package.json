@@ -9,7 +9,7 @@
     "build": "npm run dist",
     "prettier": "prettier --single-quote --write \".*.js\" \"*.js\" \"demo/src/**/*.js\" \"src/**/*.js\"",
     "static-files": "cpx demo/src/index.html demo/public/ && cpx demo/css/autosuggest.css demo/public/",
-    "dist": "mkdirp dist && cpx src -d dist",
+    "dist": "mkdirp dist && babel src -d dist",
     "demo-dist": "npm run static-files && cross-env BABEL_ENV=production",
     "lint": "eslint src demo/src server.js webpack.*.js",
     "prebuild": "npm run prettier && npm run lint",
