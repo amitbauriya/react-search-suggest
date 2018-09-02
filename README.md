@@ -1,5 +1,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/amitbauriya/react-search-suggest/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/amitbauriya/react-search-suggest/?branch=master)
-[![Code Climate](https://codeclimate.com/github/amitbauriya/react-search-suggest/badges/gpa.svg)](https://codeclimate.com/github/amitbauriya/react-search-suggest)[![HitCount](http://hits.dwyl.io/amitbauriya/react-search-suggest.svg) (http://hits.dwyl.io/amitbauriya/react-search-suggest)
+[![Code Climate](https://codeclimate.com/github/amitbauriya/react-search-suggest/badges/gpa.svg)](https://codeclimate.com/github/amitbauriya/react-search-suggest) 
+[![HitCount](http://hits.dwyl.io/amitbauriya/react-search-suggest.svg)](http://hits.dwyl.io/amitbauriya/react-search-suggest)
 
 
 # React Search Suggest
